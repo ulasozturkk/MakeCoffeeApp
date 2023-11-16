@@ -27,6 +27,7 @@ class CoffeeInteractor : AnyInteractor{
                 completion(.failure(error))
             }
             guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode <= 299 else {
+                print("başarılı kod gelmedi")
                 completion(.failure(NSError(domain: "Invalid response", code: 0)))
                 return
             }

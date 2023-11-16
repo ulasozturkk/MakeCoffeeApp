@@ -21,6 +21,7 @@
 		524A9DF92B06619A003B1096 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DF82B06619A003B1096 /* OnboardingView.swift */; };
 		524A9DFB2B06B0D4003B1096 /* HotCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */; };
 		524A9DFD2B06B0EF003B1096 /* IcedCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */; };
+		524A9DFF2B06B2E3003B1096 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DFE2B06B2E3003B1096 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		524A9DF82B06619A003B1096 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCoffeeView.swift; sourceTree = "<group>"; };
 		524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcedCoffeeView.swift; sourceTree = "<group>"; };
+		524A9DFE2B06B2E3003B1096 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				524A9DF82B06619A003B1096 /* OnboardingView.swift */,
 				524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */,
 				524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */,
+				524A9DFE2B06B2E3003B1096 /* CustomTableViewCell.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				524A9DFB2B06B0D4003B1096 /* HotCoffeeView.swift in Sources */,
 				524A9DF42B058C8F003B1096 /* coldCoffeeEntity.swift in Sources */,
 				5211C22F2B0584F30061565C /* SceneDelegate.swift in Sources */,
+				524A9DFF2B06B2E3003B1096 /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
