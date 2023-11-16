@@ -41,4 +41,4 @@ If you wish to contribute to the application, please read the "CONTRIBUTING.md" 
 
 ## License
 
-This project is licensed under the MIT License. For more information, see the [LICENSE.md](LICENSE.md) file.
+This project is licensed under the Apache License. For more information, see the [LICENSE.md](LICENSE.md) file.
