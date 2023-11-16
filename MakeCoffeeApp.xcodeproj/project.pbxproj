@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		5211C22D2B0584F30061565C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C22C2B0584F30061565C /* AppDelegate.swift */; };
 		5211C22F2B0584F30061565C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C22E2B0584F30061565C /* SceneDelegate.swift */; };
-		5211C2312B0584F30061565C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C2302B0584F30061565C /* ViewController.swift */; };
-		5211C2342B0584F30061565C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5211C2322B0584F30061565C /* Main.storyboard */; };
 		5211C2362B0584F30061565C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5211C2352B0584F30061565C /* Assets.xcassets */; };
 		5211C2392B0584F30061565C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5211C2372B0584F30061565C /* LaunchScreen.storyboard */; };
+		5211C2422B0585B70061565C /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C2412B0585B70061565C /* CoffeeView.swift */; };
+		5211C2442B0585CA0061565C /* CoffeeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C2432B0585CA0061565C /* CoffeeInteractor.swift */; };
+		5211C2462B0585D20061565C /* CoffeePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C2452B0585D20061565C /* CoffeePresenter.swift */; };
+		5211C2482B0585E70061565C /* CoffeeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C2472B0585E70061565C /* CoffeeRouter.swift */; };
+		524A9DF02B0589A6003B1096 /* endPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DEF2B0589A6003B1096 /* endPoints.swift */; };
+		524A9DF42B058C8F003B1096 /* coldCoffeeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DF32B058C8F003B1096 /* coldCoffeeEntity.swift */; };
+		524A9DF62B058C9F003B1096 /* hotCoffeeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DF52B058C9F003B1096 /* hotCoffeeEntity.swift */; };
+		524A9DF92B06619A003B1096 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DF82B06619A003B1096 /* OnboardingView.swift */; };
+		524A9DFB2B06B0D4003B1096 /* HotCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */; };
+		524A9DFD2B06B0EF003B1096 /* IcedCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5211C2292B0584F30061565C /* MakeCoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeCoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5211C22C2B0584F30061565C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5211C22E2B0584F30061565C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5211C2302B0584F30061565C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5211C2332B0584F30061565C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5211C2352B0584F30061565C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5211C2382B0584F30061565C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5211C23A2B0584F30061565C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5211C2412B0585B70061565C /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		5211C2432B0585CA0061565C /* CoffeeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeInteractor.swift; sourceTree = "<group>"; };
+		5211C2452B0585D20061565C /* CoffeePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePresenter.swift; sourceTree = "<group>"; };
+		5211C2472B0585E70061565C /* CoffeeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRouter.swift; sourceTree = "<group>"; };
+		524A9DEF2B0589A6003B1096 /* endPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endPoints.swift; sourceTree = "<group>"; };
+		524A9DF32B058C8F003B1096 /* coldCoffeeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coldCoffeeEntity.swift; sourceTree = "<group>"; };
+		524A9DF52B058C9F003B1096 /* hotCoffeeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotCoffeeEntity.swift; sourceTree = "<group>"; };
+		524A9DF82B06619A003B1096 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCoffeeView.swift; sourceTree = "<group>"; };
+		524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcedCoffeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,39 @@
 		5211C22B2B0584F30061565C /* MakeCoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				524A9DF72B0655DD003B1096 /* views */,
+				5211C2402B05857F0061565C /* Service */,
 				5211C22C2B0584F30061565C /* AppDelegate.swift */,
 				5211C22E2B0584F30061565C /* SceneDelegate.swift */,
-				5211C2302B0584F30061565C /* ViewController.swift */,
-				5211C2322B0584F30061565C /* Main.storyboard */,
 				5211C2352B0584F30061565C /* Assets.xcassets */,
 				5211C2372B0584F30061565C /* LaunchScreen.storyboard */,
 				5211C23A2B0584F30061565C /* Info.plist */,
+				5211C2452B0585D20061565C /* CoffeePresenter.swift */,
+				5211C2472B0585E70061565C /* CoffeeRouter.swift */,
+				524A9DF32B058C8F003B1096 /* coldCoffeeEntity.swift */,
+				524A9DF52B058C9F003B1096 /* hotCoffeeEntity.swift */,
 			);
 			path = MakeCoffeeApp;
+			sourceTree = "<group>";
+		};
+		5211C2402B05857F0061565C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5211C2432B0585CA0061565C /* CoffeeInteractor.swift */,
+				524A9DEF2B0589A6003B1096 /* endPoints.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		524A9DF72B0655DD003B1096 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5211C2412B0585B70061565C /* CoffeeView.swift */,
+				524A9DF82B06619A003B1096 /* OnboardingView.swift */,
+				524A9DFA2B06B0D4003B1096 /* HotCoffeeView.swift */,
+				524A9DFC2B06B0EF003B1096 /* IcedCoffeeView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +167,6 @@
 			files = (
 				5211C2392B0584F30061565C /* LaunchScreen.storyboard in Resources */,
 				5211C2362B0584F30061565C /* Assets.xcassets in Resources */,
-				5211C2342B0584F30061565C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +177,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5211C2312B0584F30061565C /* ViewController.swift in Sources */,
 				5211C22D2B0584F30061565C /* AppDelegate.swift in Sources */,
+				5211C2462B0585D20061565C /* CoffeePresenter.swift in Sources */,
+				5211C2442B0585CA0061565C /* CoffeeInteractor.swift in Sources */,
+				524A9DF92B06619A003B1096 /* OnboardingView.swift in Sources */,
+				5211C2482B0585E70061565C /* CoffeeRouter.swift in Sources */,
+				524A9DF02B0589A6003B1096 /* endPoints.swift in Sources */,
+				524A9DF62B058C9F003B1096 /* hotCoffeeEntity.swift in Sources */,
+				524A9DFD2B06B0EF003B1096 /* IcedCoffeeView.swift in Sources */,
+				5211C2422B0585B70061565C /* CoffeeView.swift in Sources */,
+				524A9DFB2B06B0D4003B1096 /* HotCoffeeView.swift in Sources */,
+				524A9DF42B058C8F003B1096 /* coldCoffeeEntity.swift in Sources */,
 				5211C22F2B0584F30061565C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5211C2322B0584F30061565C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5211C2332B0584F30061565C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5211C2372B0584F30061565C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +337,6 @@
 				INFOPLIST_FILE = MakeCoffeeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +364,6 @@
 				INFOPLIST_FILE = MakeCoffeeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

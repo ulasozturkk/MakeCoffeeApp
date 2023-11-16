@@ -1,5 +1,5 @@
 //
-//  CoffeeView.swift
+//  HotCoffeeView.swift
 //  MakeCoffeeApp
 //
 //  Created by macbook pro on 16.11.2023.
@@ -7,7 +7,11 @@
 
 import UIKit
 
-class CoffeeView: UIViewController {
+class HotCoffeeView: UIViewController,AnyView {
+    var presenter: AnyPresenter?
+    
+    var chosenCoffeeType: String?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
