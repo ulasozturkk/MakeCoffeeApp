@@ -74,17 +74,15 @@
 		5211C22B2B0584F30061565C /* MakeCoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				524A9E032B06DD2E003B1096 /* Delegates */,
+				524A9E022B06DD27003B1096 /* Router */,
+				524A9E012B06DD19003B1096 /* Entity */,
+				524A9E002B06DD10003B1096 /* Presenter */,
 				524A9DF72B0655DD003B1096 /* views */,
 				5211C2402B05857F0061565C /* Service */,
-				5211C22C2B0584F30061565C /* AppDelegate.swift */,
-				5211C22E2B0584F30061565C /* SceneDelegate.swift */,
 				5211C2352B0584F30061565C /* Assets.xcassets */,
 				5211C2372B0584F30061565C /* LaunchScreen.storyboard */,
 				5211C23A2B0584F30061565C /* Info.plist */,
-				5211C2452B0585D20061565C /* CoffeePresenter.swift */,
-				5211C2472B0585E70061565C /* CoffeeRouter.swift */,
-				524A9DF32B058C8F003B1096 /* coldCoffeeEntity.swift */,
-				524A9DF52B058C9F003B1096 /* hotCoffeeEntity.swift */,
 			);
 			path = MakeCoffeeApp;
 			sourceTree = "<group>";
@@ -108,6 +106,40 @@
 				524A9DFE2B06B2E3003B1096 /* CustomTableViewCell.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		524A9E002B06DD10003B1096 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5211C2452B0585D20061565C /* CoffeePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		524A9E012B06DD19003B1096 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				524A9DF52B058C9F003B1096 /* hotCoffeeEntity.swift */,
+				524A9DF32B058C8F003B1096 /* coldCoffeeEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		524A9E022B06DD27003B1096 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5211C2472B0585E70061565C /* CoffeeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		524A9E032B06DD2E003B1096 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5211C22C2B0584F30061565C /* AppDelegate.swift */,
+				5211C22E2B0584F30061565C /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
