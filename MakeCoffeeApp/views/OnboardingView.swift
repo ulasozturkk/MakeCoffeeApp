@@ -3,6 +3,14 @@ import UIKit
 
 
 class OnboardingView: UIViewController, AnyView {
+    func updateHot(with hotcoffee: [HotCoffee]) {
+        
+    }
+    
+    func updateIced(with icedCoffee: [ColdCoffee]) {
+        
+    }
+    
     var chosenCoffeeType: String?
     
     var presenter: AnyPresenter?
@@ -22,8 +30,8 @@ class OnboardingView: UIViewController, AnyView {
 
    
     @objc func segueButton(){
-        let homeVC = CoffeeView()
-        navigationController?.pushViewController(homeVC, animated: true)
+        
+        navigationController?.pushViewController(CoffeeView(), animated: true)
 
     }
     

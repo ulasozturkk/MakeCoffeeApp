@@ -3,14 +3,31 @@ import UIKit
 protocol AnyView {
     var presenter: AnyPresenter? { get set }
     var chosenCoffeeType: String? { get set }
+    func updateHot(with hotcoffee :[HotCoffee])
+    func updateIced(with icedCoffee : [ColdCoffee])
 }
 
 class CoffeeView: UIViewController, AnyView {
+    func updateHot(with hotcoffee: [HotCoffee]) {
+        
+    }
+    
+    func updateIced(with icedCoffee: [ColdCoffee]) {
+        
+    }
+    
     var chosenCoffeeType: String?
     var presenter: AnyPresenter?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let coffeePresenter = CoffeePresenter()
+        coffeePresenter.view = self
+        let coffeeInteractor = CoffeeInteractor()
+        presenter = coffeePresenter
+        coffeePresenter.interactor = coffeeInteractor
         view.backgroundColor = .black
         
         setupUI()
@@ -37,7 +54,7 @@ class CoffeeView: UIViewController, AnyView {
         let screenWidth = view.frame.size.width
         
         NSLayoutConstraint.activate([
-        
+            
             navbar.topAnchor.constraint(equalTo: view.topAnchor),
             navbar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             navbar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
@@ -58,11 +75,11 @@ class CoffeeView: UIViewController, AnyView {
             
             hotcoffeeLabel.topAnchor.constraint(equalTo: hotCoffeeImage.bottomAnchor, constant: screenHeight * 0.05),
             hotcoffeeLabel.centerXAnchor.constraint(equalTo: hotCoffeeImage.centerXAnchor),
-
+            
             icedcoffeeLabel.topAnchor.constraint(equalTo: icedCoffeeImage.bottomAnchor, constant: screenHeight * 0.05),
             icedcoffeeLabel.centerXAnchor.constraint(equalTo: icedCoffeeImage.centerXAnchor)
-
-    
+            
+            
         ])
         
         let hotCoffeeGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hotCoffeeTapped))
@@ -73,9 +90,15 @@ class CoffeeView: UIViewController, AnyView {
     
     @objc func hotCoffeeTapped(){
         print("hot tapped")
+        let hotCoffeeVC = HotCoffeeView()
+        presenter?.selectedCoffeeType(type: "hot")
+        navigationController?.pushViewController(hotCoffeeVC, animated: true)
     }
     @objc func icedCoffeeTapped(){
         print("cold tapped")
+        let coldCoffeeVC = IcedCoffeeView()
+        presenter?.selectedCoffeeType(type: "cold")
+        navigationController?.pushViewController(coldCoffeeVC, animated: true)
     }
     
     func makeBoldLabel(withText text: String) -> UILabel {
